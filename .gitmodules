@@ -1,0 +1,4 @@
+[submodule "lvntkyblog/public"]
+	path = lvntkyblog/public
+	url = https://github.com/lvntky/lvntky.github.io.git
+	branch = main
