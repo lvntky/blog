@@ -1,2 +1,36 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Levent Kaya</title><link>https://leventkaya.dev/posts/</link><description>Recent content in Posts on Levent Kaya</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>NASM Programlama - 1</title><link>https://leventkaya.dev/posts/2022/01/nasm-programlama-1/</link><pubDate>Tue, 11 Jan 2022 00:00:00 +0000</pubDate><guid>https://leventkaya.dev/posts/2022/01/nasm-programlama-1/</guid><description>title test1</description><content type="html">&lt;h2 id="title">title&lt;/h2>
-&lt;p>test1&lt;/p></content></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Levent Kaya</title><link>https://leventkaya.dev/posts/</link><description>Recent content in Posts on Levent Kaya</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>x86_64 Islemcilerde Assembly Programlama - 1</title><link>https://leventkaya.dev/posts/2022/04/x86_64-islemcilerde-assembly-programlama-1/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://leventkaya.dev/posts/2022/04/x86_64-islemcilerde-assembly-programlama-1/</guid><description>BOLUM 1 - BASLANGIC Merhabalar, bu blog serisinde x86_64 mimarisine sahip islemcilerde Assembly programlamayi anlatiyor olacagim.
+Bu seride Jonathan Bartlett&amp;rsquo;in Programming From Ground Up kitabini referans alacagim.
+1.1 Gelistirme Ortami Bu blog serisine baslarken gelistirme ortamindan bahsetmek istiyorum. Seri boyunca programlari GNU\Linux ortaminda gelistirecek ve GCC tool setini kullanacagim. Bu seriyi bir Linux makinada takip etmenizi siddetle oneririm. Ben Arch Linux kullaniyorum fakat kullandiginiz distronun pek de bir onemi yok.</description><content type="html"><![CDATA[<h1 id="bolum-1---baslangic">BOLUM 1 - BASLANGIC</h1>
+<p>Merhabalar, bu blog serisinde x86_64 mimarisine sahip islemcilerde Assembly programlamayi anlatiyor olacagim.</p>
+<p>Bu seride Jonathan Bartlett&rsquo;in Programming From Ground Up kitabini referans alacagim.</p>
+<h2 id="11-gelistirme-ortami">1.1 Gelistirme Ortami</h2>
+<p>Bu blog serisine baslarken gelistirme ortamindan bahsetmek istiyorum. Seri boyunca programlari GNU\Linux ortaminda gelistirecek ve GCC tool setini kullanacagim. Bu seriyi bir Linux makinada takip etmenizi siddetle oneririm. Ben Arch Linux kullaniyorum fakat kullandiginiz distronun pek de bir onemi yok.</p>
+<h1 id="bolum-2---bilgisayar-mimarisi">BOLUM 2 - BILGISAYAR MIMARISI</h1>
+<p>Bir program yazmaya baslamadan once, bilgisayarlarin yazdigimiz programlari nasil anlamlandirdigini anlamamiz gerekiyor. Assembly ogrenmenin en iyi yani da bu, neyi neden yaptigimizi ve tum bunlarin nasil gerceklestigini anlamya yetenegi kazaniyoruz.</p>
+<p>Modern bilgisayarlar Von Neumann mimarisini baz alarak calisirlar. Von Neumann mimarisi bilgisayarlari CPU ve Memory olmak uzere iki ana parcaya ayirir.</p>
+<h2 id="21-memory">2.1 Memory</h2>
+<p>Bilgisayar memorysi bir posta kutusuna cok benzer. Her ikisinin de belirli sayida mektup yada veri tutma kapasitesi vardir. Ornegin 256kBlik bir bilgisayar memorysine sahipseniz kabaca, 256 milyon belirli sayida veri tutma alanina sahipsiniz demektir. Her alanin bir adresi ve ayni sabit sayida veri tutma alani vardir.</p>
+<p><img src="/https://github.com/lvntky/blog/blob/main/static/images/memory.png" alt="Memory"></p>
+<p>Bilgisayarimizla ilgili kaydedilmesi gereken hemen her sey memory&rsquo;de bulunur.</p>
+<ul>
+<li>ekrandaki imleciniz konum</li>
+<li>su an bu blogu okudugunuz browserin ebati</li>
+<li>kullandiginiz yazi fontunun buyuklugu</li>
+<li>toolbarinizdaki grafikler</li>
+<li>ve akliniza gelebilecek diger tum seyler!</li>
+</ul>
+<p>Buna ek olarak, Von Neumann mimarisine gore bilgisayarimizi kontrol eden programlar da burada, memoryde saklanir. Bilgisayarimizin gozunden bir kaynak kodu yani yazdigimiz program ve bu programin ciktisi arasinda hicbir fark yokturk.</p>
+<h2 id="22-cpu">2.2 CPU</h2>
+<p>Peki bir bilgisayar nasil isler? Tahmin edersiniz ki verileri tutmak bir bilgisayarin islemesi icin yeterli degildir. Calisan bir bilgisayar icin bu verilere ulasmamiz, degistirmemiz, uzerinde islemler yapabilmemiz de gerekir. Bu noktada bu gorevi CPU ustlenir.</p>
+<p>CPU memorydeki verileri okur ve calistirir. Bu isleme <em>fetch-execute cycle</em> denir. Bu gorevi tamamlamak icin bir CPU asagidaki bilesenlere ihtiyac duyar:</p>
+<ul>
+<li>Program Counter</li>
+<li>Instruction Decoder</li>
+<li>Data Bus</li>
+<li>General Purpose Registers</li>
+<li>ALU (Arithmatic Logic Unit)</li>
+</ul>
+<p><em>Program Counter</em> memoryden gelecek bir sonraki talimatin yerini gosterir. Boylece fecth execute cycle aksamadan devam edebilir. Herhangi bir veri ile bir pgoramin kaynak kodunun memoryde ayni sekilde tutuldugunu sadece CPU nun bu iki farkli veriyi isleme biciminin farkli oldugunu soylemistik. Program Counter islenecek bir sonraki talimatin adresini tutar, CPU Program Counter&rsquo;a bakar ve tuttugu memory adresinde hangi talimat varsa onu calistirir.</p>
+<p>Ardindan memoryden alinan bu talimat, <em>instruction decoder</em> a gelir. Burada bu talimatin CPU&rsquo;dan ne gibi bir islem bekledigi ve bu islemden hangi verilerin etkilenecegi anlamdirilir(ornegin memorydeki 1. sayi ile 2.sayiyi topla)</p>
+<p>Bu atama islemleri icin <em>Data Bus</em> kullanilir. Data Bus memory ve CPU arasindaki koprudur, yapilmasi istenilen talimatta isleme hangi memory adreslerinin dahil olup olmayacagi bu kopru ile saglanir.</p>
+]]></content></item></channel></rss>
