@@ -31,7 +31,7 @@ Modern bilgisayarlar Von Neumann mimarisini baz alarak calisirlar. Von Neumann m
 Bilgisayar memorysi bir posta kutusuna cok benzer. Her ikisinin de belirli sayida mektup yada veri tutma kapasitesi vardir. Ornegin 256kBlik bir bilgisayar memorysine sahipseniz kabaca, 256 milyon belirli sayida veri tutma alanina sahipsiniz demektir. Her alanin bir adresi ve ayni sabit sayida veri tutma alani vardir. 
 
 
-![Memory](https://github.com/lvntky/blog/blob/main/static/images/memory.png)
+![image alt text](../../static/memory.png)
 
 Bilgisayarimizla ilgili kaydedilmesi gereken hemen her sey memory'de bulunur. 
 
@@ -61,3 +61,4 @@ Ardindan memoryden alinan bu talimat, *instruction decoder* a gelir. Burada bu t
 
 Bu atama islemleri icin *Data Bus* kullanilir. Data Bus memory ve CPU arasindaki koprudur, yapilmasi istenilen talimatta isleme hangi memory adreslerinin dahil olup olmayacagi bu kopru ile saglanir. 
 
+Memorynin disinda CPU icerisinde kendine ozel, hizli hafiza alanlari barindirir. Bu alanlar *register* olarak adlandirilir ve general purpose registers - special purpose registers olmak uzere ikiye ayrilir. General Purpose Registerlarda toplama, cikarma, karsilastirma gibi ana islemler yapilir. Buna ragmen CPUlarda oldukca kisitli sayida register bulunur. Veriler ve talimatlar memoryden CPU'ya tasinir burada islem gordukten sonra data bus vasitasiyla yeniden memorye gonderilir. 
