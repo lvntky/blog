@@ -10,7 +10,7 @@ Bu seride Jonathan Bartlett&amp;rsquo;in Programming From Ground Up kitabini ref
 <p>Modern bilgisayarlar Von Neumann mimarisini baz alarak calisirlar. Von Neumann mimarisi bilgisayarlari CPU ve Memory olmak uzere iki ana parcaya ayirir.</p>
 <h2 id="21-memory">2.1 Memory</h2>
 <p>Bilgisayar memorysi bir posta kutusuna cok benzer. Her ikisinin de belirli sayida mektup yada veri tutma kapasitesi vardir. Ornegin 256kBlik bir bilgisayar memorysine sahipseniz kabaca, 256 milyon belirli sayida veri tutma alanina sahipsiniz demektir. Her alanin bir adresi ve ayni sabit sayida veri tutma alani vardir.</p>
-<p><img src="/https://github.com/lvntky/blog/blob/main/static/images/memory.png" alt="Memory"></p>
+<p><img src="https://github.com/lvntky/blog/blob/main/static/images/memory.png" alt="Memory"></p>
 <p>Bilgisayarimizla ilgili kaydedilmesi gereken hemen her sey memory&rsquo;de bulunur.</p>
 <ul>
 <li>ekrandaki imleciniz konum</li>
