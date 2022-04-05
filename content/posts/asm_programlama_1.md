@@ -31,7 +31,7 @@ Modern bilgisayarlar Von Neumann mimarisini baz alarak calisirlar. Von Neumann m
 Bilgisayar memorysi bir posta kutusuna cok benzer. Her ikisinin de belirli sayida mektup yada veri tutma kapasitesi vardir. Ornegin 256kBlik bir bilgisayar memorysine sahipseniz kabaca, 256 milyon belirli sayida veri tutma alanina sahipsiniz demektir. Her alanin bir adresi ve ayni sabit sayida veri tutma alani vardir. 
 
 
-![Memory](/static/memory.png)
+![Memory](https://github.com/lvntky/blog/blob/1036b51dd2df2839c3eb69e03c9d6d5d186d55da/static/memory.png)
 
 Bilgisayarimizla ilgili kaydedilmesi gereken hemen her sey memory'de bulunur. 
 
