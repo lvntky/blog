@@ -1,3 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Levent Kaya</title><link>https://leventkaya.dev/</link><description>Recent content on Levent Kaya</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>x86_64 Islemcilerde Assembly Programlama - 1</title><link>https://leventkaya.dev/posts/2022/04/x86_64-islemcilerde-assembly-programlama-1/</link><pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate><guid>https://leventkaya.dev/posts/2022/04/x86_64-islemcilerde-assembly-programlama-1/</guid><description>BOLUM 1 - BASLANGIC Merhabalar, bu blog serisinde x86_64 mimarisine sahip islemcilerde Assembly programlamayi anlatiyor olacagim.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Levent Kaya</title>
+    <link>https://leventkaya.dev/</link>
+    <description>Recent content on Levent Kaya</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>x86_64 Islemcilerde Assembly Programlama - 1</title>
+      <link>https://leventkaya.dev/posts/asm_programlama_1/</link>
+      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leventkaya.dev/posts/asm_programlama_1/</guid>
+      <description>BOLUM 1 - BASLANGIC Merhabalar, bu blog serisinde x86_64 mimarisine sahip islemcilerde Assembly programlamayi anlatiyor olacagim.
 Bu seride Jonathan Bartlett&amp;rsquo;in Programming From Ground Up kitabini referans alacagim.
-1.1 Gelistirme Ortami Bu blog serisine baslarken gelistirme ortamindan bahsetmek istiyorum. Seri boyunca programlari GNU\Linux ortaminda gelistirecek ve GCC tool setini kullanacagim. Bu seriyi bir Linux makinada takip etmenizi siddetle oneririm. Ben Arch Linux kullaniyorum fakat kullandiginiz distronun pek de bir onemi yok.</description></item><item><title/><link>https://leventkaya.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://leventkaya.dev/about/</guid><description>Hi there 👋 I&amp;rsquo;m a Computer Scientist in Istanbul, Turkey 🇹🇷. I am mainly working on Deep Learning and Low Level Programming NOW ✨ Crafted last Laracon Online website; 💾 Working on Kernel Development BIO 🏢 I&amp;rsquo;m currently working on Computer Vision ⚙️ I use daily: .C, .C++, .Python, .NASM 🌱 Learning all about Deep Learning and Low Level Programming 💬 Ping me about Open Source Software, Deep Learning, Assembly Language, C Programming, Kernel Development 📫 Reach me: github.</description></item></channel></rss>
+1.1 Gelistirme Ortami Bu blog serisine baslarken gelistirme ortamindan bahsetmek istiyorum. Seri boyunca programlari GNU\Linux ortaminda gelistirecek ve GCC tool setini kullanacagim. Bu seriyi bir Linux makinada takip etmenizi siddetle oneririm. Ben Arch Linux kullaniyorum fakat kullandiginiz distronun pek de bir onemi yok.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://leventkaya.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://leventkaya.dev/about/</guid>
+      <description>Hi there 👋 I&amp;rsquo;m a Computer Scientist in Istanbul, Turkey 🇹🇷.  I am mainly working on Deep Learning and Low Level Programming  NOW  ✨ Crafted last Laracon Online website; 💾 Working on Kernel Development  BIO  🏢 I&amp;rsquo;m currently working on Computer Vision ⚙️ I use daily: .C, .C++, .Python, .NASM 🌱 Learning all about Deep Learning and Low Level Programming 💬 Ping me about Open Source Software, Deep Learning, Assembly Language, C Programming, Kernel Development 📫 Reach me: github.</description>
+    </item>
+    
+  </channel>
+</rss>
