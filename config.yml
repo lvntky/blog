@@ -28,7 +28,7 @@ languages:
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "Computer Scientist :floppy_disk: "
+            subtitle: "Computer Scientist :penguin: "
             buttons:
                 - name: Blog
                   url: posts
