@@ -2,11 +2,11 @@
 author:
   name: Levent Kaya
 date: 2022-04-05
-linktitle: x86_64 Islemcilerde Assembly Programlama - 1
+linktitle: x86_64 Islemcilerde Assembly Programlama - 1 - Bilgisayar Mimarisi 
 type:
 - post
 - posts
-title: x86_64 Islemcilerde Assembly Programlama - 1 
+title: x86_64 Islemcilerde Assembly Programlama - 1 - Bilgisayar Mimarisi
 weight: 10
 series:
 ---
