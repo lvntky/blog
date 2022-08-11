@@ -1,7 +1,7 @@
 ---
 author:
   name: Levent Kaya
-date: 2022-04-05
+date: 2022-08-11
 linktitle: x86_64 Islemcilerde Assembly Programlama - 1 - Bilgisayar Mimarisi 
 type:
 - post
@@ -31,8 +31,6 @@ Modern bilgisayarlar Von Neumann mimarisini baz alarak calisirlar. Von Neumann m
 Bilgisayar memorysi bir posta kutusuna cok benzer. Her ikisinin de belirli sayida mektup yada veri tutma kapasitesi vardir. Ornegin 256kBlik bir bilgisayar memorysine sahipseniz kabaca, 256 milyon belirli sayida veri tutma alanina sahipsiniz demektir. Her alanin bir adresi ve ayni sabit sayida veri tutma alani vardir. 
 
 
-![Memory](https://github.com/lvntky/blog/blob/1036b51dd2df2839c3eb69e03c9d6d5d186d55da/static/memory.png)
-
 Bilgisayarimizla ilgili kaydedilmesi gereken hemen her sey memory'de bulunur. 
 
 * ekrandaki imleciniz konum
@@ -61,4 +59,24 @@ Ardindan memoryden alinan bu talimat, *instruction decoder* a gelir. Burada bu t
 
 Bu atama islemleri icin *Data Bus* kullanilir. Data Bus memory ve CPU arasindaki koprudur, yapilmasi istenilen talimatta isleme hangi memory adreslerinin dahil olup olmayacagi bu kopru ile saglanir. 
 
-Memorynin disinda CPU icerisinde kendine ozel, hizli hafiza alanlari barindirir. Bu alanlar *register* olarak adlandirilir ve general purpose registers - special purpose registers olmak uzere ikiye ayrilir. General Purpose Registerlarda toplama, cikarma, karsilastirma gibi ana islemler yapilir. Buna ragmen CPUlarda oldukca kisitli sayida register bulunur. Veriler ve talimatlar memoryden CPU'ya tasinir burada islem gordukten sonra data bus vasitasiyla yeniden memorye gonderilir. 
+Memorynin disinda CPU icerisinde kendine ozel, hizli hafiza alanlari barindirir. Bu alanlar *register* olarak adlandirilir ve general purpose registers - special purpose registers olmak uzere ikiye ayrilir. General Purpose Registerlarda toplama, cikarma, karsilastirma gibi ana islemler yapilir. Buna ragmen CPUlarda oldukca kisitli sayida register bulunur. Veriler ve talimatlar memoryden CPU'ya tasinir burada islem gordukten sonra data bus vasitasiyla yeniden memorye gonderilir. Serinin ilerleyen kisminda, generap ve special registerlari daha detayli isleyecegiz.
+
+Gereken veriler CPU'ya gonderildikten sonra bu veri ve `decode instructionlar` ALU'ya gelir ve burada gerekli islemi gorur, ardindan sonuc, data bus yardimiyla memoryde ilgili yere geri gonderilir.
+
+## 2.3 Data Accessing Metodlari 
+Islemcilerde dataya erismenin birden farkli yolu vardir, bunlara data accesing metodlari denir.
+
+* Bunlardan en basiti `immidiate` moddur. Ornegin bir registeri 0'a esitlemek istiyorsak, bilgisayara 0 degereini okuyacak bir adres vermek yerine direk olarak 0 degerini atariz. 
+
+* `register addressing` mod'da instruction bir memory adresi yerine ulasilacak bir register barindirir. bunlar disinda diger tum modlar adresslerle dataya ulasir.
+
+* `direct` adressing mode'da instruction bir memory adresi barindirir. ornegin bir registera direct mod ile veri yuklemek istersem, bu registera memorydeki xxxx konumuna git derim bunun neticesinde bu registera xxxx konumundaki degeri atamis olurum. Burda onemli olan nokta registera xxxx degerini degil memoryde xxxx adresinde bulunan degeri yukluyor olmam.
+
+* `indexed` modunda, instruction bir hafıza adresi içerir. erişim ve ayrıca bu adresi dengelemek için bir dizin kaydı da belirtir.
+
+* `indirect` adressing modunda, instruction, datanin yerini gosteren pointeri barindiran bir register icerir.
+
+* son olarak `base pointer` adressing mode bulunur, serinin devaminda kullanacagimiz icin simdilik bunu giris kisminda aciklamiyorum.
+  
+### Bolum 1 Sonu...
+Bu bolumde anlatabileceklerim bu kadardi. Assembly programlamak icin bilmemiz gereken temel bilgisayar mimarisi konularini ele almaya calistim. Serinin bir sonraki bolumunden ilk ve dolayisiyla cok basit assembly programimizi yazacagiz.
