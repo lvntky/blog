@@ -5,11 +5,11 @@
     <link>https://leventkaya.dev/posts/</link>
     <description>Recent content in Posts on Levent Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>x86_64 Islemcilerde Assembly Programlama - 1 - Bilgisayar Mimarisi</title>
       <link>https://leventkaya.dev/posts/asm_programlama_1/</link>
-      <pubDate>Tue, 05 Apr 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>https://leventkaya.dev/posts/asm_programlama_1/</guid>
       <description>BOLUM 1 - BASLANGIC Merhabalar, bu blog serisinde x86_64 mimarisine sahip islemcilerde Assembly programlamayi anlatiyor olacagim.
