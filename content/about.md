@@ -5,12 +5,12 @@
 
 ##### NOW
 
-- ✨ Crafted last [Laracon Online](https://laracon.net) website;
+- ✨ Crafted last [Intel 8080 disassembler](https://github.com/lvntky/disint8080);
 - :floppy_disk: Working on [Kernel Development](https://github.com/kernel)
 
 ##### BIO
 
-- 🏢 I'm currently working on **Computer Vision**
+- 🏢 I'm currently working on **OS Development**
 - ⚙️ I use daily: `.C`, `.C++`, `.Python`, `.NASM`
 - 🌱 Learning all about **Deep Learning** and **Low Level Programming** 
 - 💬 Ping me about **Open Source Software**, **Deep Learning**, **Assembly Language**, **C Programming**, **Kernel Development**
