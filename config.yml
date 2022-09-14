@@ -28,7 +28,7 @@ languages:
             # imageTitle: my image
             # imageWidth: 120
             # imageHeight: 120
-            subtitle: "Computer Scientist"
+            subtitle: "Jr. Software Developer" 
             buttons:
                 - name: Blog
                   url: posts
