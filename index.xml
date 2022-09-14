@@ -5,9 +5,19 @@
     <link>https://leventkaya.dev/</link>
     <description>Recent content on Levent Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>x86_64 Islemcilerde Assembly Programlama - 1 - Bilgisayar Mimarisi</title>
+      <title>x86_64 Islemcilerde Assembly Programlama - 3 - Ilk Program</title>
+      <link>https://leventkaya.dev/posts/asm_programlama_3/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leventkaya.dev/posts/asm_programlama_3/</guid>
+      <description>BOLUM 3 - ILK PROGRAM Merhaba, serinin bu bolumunde ilk assembly programimizi yazacagiz. Bu bolumde yazdiklariniz size ilk basta yabanci gelebilir ve gozunuzu korkutabilir ama bu hic onemli degil. Ilerleyen surecte her seyin nasil isledigi oturacaktir.
+Programa Giris Ilk programimiz oldukca basit, o kadar basit ki programimiz cikis yapmak disinda hicbir sey yapmiyor. Bu bolumde yazdiklarinizi anlamak icin ugrasmayin bu bolumun tek gayesi sizi assembly programlamaya alistirmak ve bir linux makinede nasil calistirildigini gostermek.</description>
+    </item>
+    
+    <item>
+      <title>x86_64 Islemcilerde Assembly Programlama - 1 &amp; 2 - Bilgisayar Mimarisi</title>
       <link>https://leventkaya.dev/posts/asm_programlama_1/</link>
       <pubDate>Thu, 11 Aug 2022 00:00:00 +0000</pubDate>
       
@@ -23,7 +33,7 @@ Bu seride Jonathan Bartlett&amp;rsquo;in Programming From Ground Up kitabini ref
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://leventkaya.dev/about/</guid>
-      <description>Hi there 👋 I&amp;rsquo;m a Computer Scientist in Istanbul, Turkey 🇹🇷. I am mainly working on Deep Learning and Low Level Programming NOW ✨ Crafted last Laracon Online website; 💾 Working on Kernel Development BIO 🏢 I&amp;rsquo;m currently working on Computer Vision ⚙️ I use daily: .C, .C++, .Python, .NASM 🌱 Learning all about Deep Learning and Low Level Programming 💬 Ping me about Open Source Software, Deep Learning, Assembly Language, C Programming, Kernel Development 📫 Reach me: github.</description>
+      <description>Hi there 👋 I&amp;rsquo;m a Computer Scientist in Istanbul, Turkey 🇹🇷. I am mainly working on Deep Learning and Low Level Programming NOW ✨ Crafted last Intel 8080 disassembler; 💾 Working on Kernel Development BIO 🏢 I&amp;rsquo;m currently working on OS Development ⚙️ I use daily: .C, .C++, .Python, .NASM 🌱 Learning all about Deep Learning and Low Level Programming 💬 Ping me about Open Source Software, Deep Learning, Assembly Language, C Programming, Kernel Development 📫 Reach me: github.</description>
     </item>
     
   </channel>
