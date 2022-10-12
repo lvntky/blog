@@ -174,3 +174,9 @@ services:
         disableInlineCSS: true
     twitter:
         disableInlineCSS: true
+
+security:
+  funcs:
+    getenv:
+      - ^HUGO_
+      - ^WC_

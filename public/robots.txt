@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://leventkaya.dev/sitemap.xml
