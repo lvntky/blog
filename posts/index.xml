@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Sifirdan Bir Compiler Programlamak - 0 - Giris</title>
+      <link>https://leventkaya.dev/posts/compiler_programlama_0/</link>
+      <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leventkaya.dev/posts/compiler_programlama_0/</guid>
+      <description>Bir Compiler Programlamak - 0 Giris Bir compiler programlamaya karar verdim. Daha onceden basit assemblerlar, disassemblerlar, basit diller icin ufak compilerlar kodlamistim. Ama hic kendi kendini compile edebilen gercek bir compiler programlamadim.
+Bu yuzden bu blog serisinde gercek bir compilerin nasil programlandigini arsivlemek istedim. Blog serisi ve development sureci paralel gercekleseceginden bu yazilari okuduktan sonra yazinin altindaki proje linkinden implement edilmis kodlari da bulabilirsiniz. Umarim benim ve sizler icin yararli olur :)</description>
+    </item>
+    
+    <item>
       <title>x86_64 Islemcilerde Assembly Programlama - 3 - Ilk Program</title>
       <link>https://leventkaya.dev/posts/asm_programlama_3/</link>
       <pubDate>Sun, 14 Aug 2022 00:00:00 +0000</pubDate>
