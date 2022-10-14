@@ -5,7 +5,19 @@
     <link>https://leventkaya.dev/</link>
     <description>Recent content on Levent Kaya</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 14 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://leventkaya.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sifirdan Bir Compiler Programlamak - 1 - Lexer</title>
+      <link>https://leventkaya.dev/posts/compiler_programlama_1/</link>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://leventkaya.dev/posts/compiler_programlama_1/</guid>
+      <description>Bir Compiler Programlama - 1 Lexer Serinin bu yazisinda compilerimizi gercekten programlamaya basliyoruz. Ilk implement etmemiz gereken yapi bir lexer.
+Lexerin amaci gelen input kayank kodu lexical elementlerine yani tokenlerine ayirmak. Bugun sadece 5 tane token implement edecegiz ama merak etmeyin, seri sonunda sikintisiz calisan bir C compilerimiz olucak.
+Bugun lexerimizin tanimasini istedigimiz tokenler + , -, * , / ve INTEGER_LITERAL tokenleri.
+DEFS.H Tokenleri tutmak icin bir yapiya ihtiyacimiz var, bunun icin defs(definitions).</description>
+    </item>
+    
     <item>
       <title>Sifirdan Bir Compiler Programlamak - 0 - Giris</title>
       <link>https://leventkaya.dev/posts/compiler_programlama_0/</link>
