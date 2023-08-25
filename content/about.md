@@ -1,7 +1,7 @@
-### Hi there 👋
+### Hi there 
 
 #### I'm a Computer Scientist in Istanbul, Turkey :tr:.
-- I am mainly working on Deep Learning and Low Level Programming
+- I am mainly working on Backend Development
 
 ##### NOW
 
@@ -11,7 +11,7 @@
 ##### BIO
 
 - 🏢 I'm currently working on **OS Development**
-- ⚙️ I use daily: `.C`, `.C++`, `.Python`, `.NASM`
+- ⚙️ I use daily: `.C`, `.C++`, `.Python`, `.NASM`, `.Java`
 - 🌱 Learning all about **Deep Learning** and **Low Level Programming** 
 - 💬 Ping me about **Open Source Software**, **Deep Learning**, **Assembly Language**, **C Programming**, **Kernel Development**
 - 📫 Reach me: [github.com/lvntky](https://github.com/lvntky)
